@@ -4,11 +4,6 @@
   "description": "Learning node, express and mongoDB",
   "main": "app.js",
   "proxy":"https://login-api-b6fw.onrender.com",
-  "scripts": {
-    "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js",
-    "debug": "ndb server.js"
-  },
   "author": "Jonas Schmedtmann",
   "license": "ISC",
   "dependencies": {
@@ -34,8 +29,7 @@
     "slug": "^8.2.3",
     "slugify": "^1.3.4",
     "stripe": "^14.9.0",
-    "validator": "^13.11.0",
-    "xss-clean": "^0.1.1"
+    "validator": "^13.11.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
