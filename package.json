@@ -2,11 +2,12 @@
   "name": "natours",
   "version": "1.0.0",
   "description": "Learning node, express and mongoDB",
-  "main": "app.js",
   "scripts": {
     "start": "node server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
-    "debug": "ndb server.js"
+    "debug": "ndb server.js",
+     "build": "babel src -d dist"
+
   },
   "proxy":"https://login-api-b6fw.onrender.com",
   "author": "Jonas Schmedtmann",
